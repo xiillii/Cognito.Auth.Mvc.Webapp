@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Cognito.Auth.Mvc.Webapp.Controllers
 {
     
-    public class ProductsController : Controller
+    public class ProtectedController : Controller
     {
         [Authorize]
         // GET: ProductsController
